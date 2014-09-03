@@ -1,4 +1,7 @@
-# Express 4.0 Secure Skeleton
+[![GitHub version](https://badge.fury.io/gh/mashurex%2Fsecure-skeleton.svg)](http://badge.fury.io/gh/mashurex%2Fsecure-skeleton)
+[![Dependencies](https://david-dm.org/mashurex/secure-skeleton.png)](https://david-dm.org/mashurex/secure-skeleton.png)
+
+# Express 4 Secure Skeleton Sample
 Intended to be a simple sample Express.js 4.x application that demonstrates secure defaults and best practices.
 
 ## Configuration Settings
