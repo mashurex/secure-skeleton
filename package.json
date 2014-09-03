@@ -1,0 +1,18 @@
+{
+  "name": "ashurex-secure-skeleton",
+  "version": "0.9.0",
+  "private": true,
+  "scripts": {
+    "start": "node bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.7.*",
+    "compression": "^1.0.11",
+    "cookie-parser": "^1.3.2",
+    "csurf": "^1.5.0",
+    "debug": "~2.0.*",
+    "express": "~4.8.*",
+    "express-session": "^1.7.6",
+    "jade": "^1.6.0"
+  }
+}
