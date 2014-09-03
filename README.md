@@ -7,24 +7,24 @@ The configuration file is `config.js` and, ideally, would be configured differen
 - ### server
 Server specific settings and connectivity details.
 
-	+ #### host
+	+ host
 The hostname or IP for the application to listen on, the default is `localhost`.
-	+ #### port
+	+ port
 The port to listen on, the Node default is `3000`.
 
 - ### app
 Application specific settings, such as secret keys and paths.
-	+ #### debug
+	+ debug
 Enables/disables various debug options like extended logging and stack trace output.
-	+ #### path
+	+ path
 The path to start serving requests from, used to configure `app.use('[path]', routes)` when initializing the Express application. Typically, this is `/` if you want the app to reside at the root, for example `http://localhost:3000/`.
-	+ #### key
+	+ key
 Application secret key, used for generating hashes, etc. Longer is better.
-	+ #### cookie
-		+ ##### secret
+	+ cookie
+		+ secret
 The cookie secret is used to sign all cookies and prevent tampering.
-	+ #### session
-		+ ##### secret
+	+ session
+		+ secret
 The session secret is used to sign session data and prevent tampering.
 
 
