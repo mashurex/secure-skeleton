@@ -3,8 +3,9 @@ var debug = require('debug')('SecureSkeleton');
 var app = require('../app');
 var config = require('../config');
 
-app.set('port', process.env.PORT || config.app.port || 3000);
+app.set('port', process.env.PORT || config.server.port || 3000);
+app.set('host', process.env.HOST || config.server.host || 'localhost');
 
-var server = app.listen(app.get('port'), function() {
+var server = app.listen(app.get('port'), app.get('host'), function() {
   debug('Express server listening on port ' + server.address().port);
 });
